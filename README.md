@@ -32,18 +32,18 @@ $(document).ready(ConfigureDOM);
  - **$.device.isBlackBerry()** returns **true** if device is a **BlackBerry**
  - **$.device.isWebOS()** returns **true** if device is a **WebOS** device.
  
- Examples
- ---------
- ```
- $(document).ready(function(){ if ($.device.isMobile()) { //TODO } });
- $(document).ready(function(){ if ($.device.isIPad()) { //TODO } });
- $(document).ready(function(){ if ($.device.isIPhone()) { //TODO } });
- $(document).ready(function(){ if ($.device.isIPod()) { //TODO } });
- $(document).ready(function(){ if ($.device.isIOSDevice()) { //TODO } });
- $(document).ready(function(){ if ($.device.isAndroid()) { //TODO } });
- $(document).ready(function(){ if ($.device.isBlackBerry()) { //TODO } });
- $(document).ready(function(){ if ($.device.isWebOS()) { //TODO } });
- ```
+Examples
+---------
+```
+$(document).ready(function(){ if ($.device.isMobile()) { //TODO } });
+$(document).ready(function(){ if ($.device.isIPad()) { //TODO } });
+$(document).ready(function(){ if ($.device.isIPhone()) { //TODO } });
+$(document).ready(function(){ if ($.device.isIPod()) { //TODO } });
+$(document).ready(function(){ if ($.device.isIOSDevice()) { //TODO } });
+$(document).ready(function(){ if ($.device.isAndroid()) { //TODO } });
+$(document).ready(function(){ if ($.device.isBlackBerry()) { //TODO } });
+$(document).ready(function(){ if ($.device.isWebOS()) { //TODO } });
+```
  
 Please feel free if you want to contribute. 
 
