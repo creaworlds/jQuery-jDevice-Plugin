@@ -49,5 +49,5 @@ Contibution and Bug Report
 --------
 Please feel free if you want to contribute. 
 
-Use the [GitHub issue tracker](https://github.com/JimBobSquarePants/jQuery-Google-Analytics-Plugin/issues) for bug
+Use the [GitHub issue tracker](https://github.com/creaworlds/jQuery-jDevice-Plugin/issues) for bug
 reports and feature requests.
