@@ -47,7 +47,7 @@ $(document).ready(function(){ if ($.device.isWebOS()) {  alert("is a WebOS devic
 
 Contributors
 --------
- - Anthony Acuña <jhony.thomo@hotmail.com>
+ - [Anthony Acuña](http://www.creaworlds.com.mx/)
 
 Contribution and Bug Report
 --------
