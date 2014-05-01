@@ -34,7 +34,7 @@ $(document).ready(ConfigureDOM);
  
 Examples
 --------
-```
+``` js
 $(document).ready(function(){ if ($.device.isMobile()) { //TODO } });
 $(document).ready(function(){ if ($.device.isIPad()) { //TODO } });
 $(document).ready(function(){ if ($.device.isIPhone()) { //TODO } });
