@@ -45,13 +45,13 @@ $(document).ready(function(){ if ($.device.isBlackBerry()) {  alert("is a BlackB
 $(document).ready(function(){ if ($.device.isWebOS()) {  alert("is a WebOS device"); } });
 ```
 
-Contributors
---------
- - [Anthony Acuña](http://www.creaworlds.com.mx/)
-
 Contribution and Bug Report
 --------
 Feel free if you want to contribute. 
 
 Please use the [GitHub issue tracker](https://github.com/creaworlds/jQuery-jDevice-Plugin/issues) for bug
 reports and feature requests.
+
+Contributors
+--------
+ - [Anthony Acuña](http://www.creaworlds.com.mx/)
