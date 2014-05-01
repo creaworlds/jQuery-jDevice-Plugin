@@ -5,7 +5,7 @@ A jQuery plugin that helps you to detect mobile features.
 
 Features
 --------
-* Helps you to Detect Mobile Device
+* Helps you to Detect a mobile device trow jQuery
 
 Dependencies
 --------
