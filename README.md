@@ -35,14 +35,14 @@ $(document).ready(ConfigureDOM);
 Examples
 --------
 ``` js
-$(document).ready(function(){ if ($.device.isMobile()) { //TODO } });
-$(document).ready(function(){ if ($.device.isIPad()) { //TODO } });
-$(document).ready(function(){ if ($.device.isIPhone()) { //TODO } });
-$(document).ready(function(){ if ($.device.isIPod()) { //TODO } });
-$(document).ready(function(){ if ($.device.isIOSDevice()) { //TODO } });
-$(document).ready(function(){ if ($.device.isAndroid()) { //TODO } });
-$(document).ready(function(){ if ($.device.isBlackBerry()) { //TODO } });
-$(document).ready(function(){ if ($.device.isWebOS()) { //TODO } });
+$(document).ready(function(){ if ($.device.isMobile()) { alert("is mobile"); } });
+$(document).ready(function(){ if ($.device.isIPad()) {  alert("is an iPad"); } });
+$(document).ready(function(){ if ($.device.isIPhone()) {  alert("is an iPhone"); } });
+$(document).ready(function(){ if ($.device.isIPod()) {  alert("is an iPod"); });
+$(document).ready(function(){ if ($.device.isIOSDevice()) {  alert("is an iOS device"); } });
+$(document).ready(function(){ if ($.device.isAndroid()) {  alert("is an Android"); } });
+$(document).ready(function(){ if ($.device.isBlackBerry()) {  alert("is a BlackBerry"); } });
+$(document).ready(function(){ if ($.device.isWebOS()) {  alert("is a WebOS device"); } });
 ```
 
 Contibution and Bug Report
