@@ -45,9 +45,9 @@ $(document).ready(function(){ if ($.device.isBlackBerry()) {  alert("is a BlackB
 $(document).ready(function(){ if ($.device.isWebOS()) {  alert("is a WebOS device"); } });
 ```
 
-Contibution and Bug Report
+Contribution and Bug Report
 --------
-Please feel free if you want to contribute. 
+Feel free if you want to contribute. 
 
-Use the [GitHub issue tracker](https://github.com/creaworlds/jQuery-jDevice-Plugin/issues) for bug
+Please use the [GitHub issue tracker](https://github.com/creaworlds/jQuery-jDevice-Plugin/issues) for bug
 reports and feature requests.
