@@ -6,9 +6,6 @@
 *	Release under the Apache 2.0 License
 *	http://www.apache.org/licenses/LICENSE-2.0
 *	
-*	Based on Angular Chartjs Directive
-*	https://github.com/earlonrails/angular-chartjs-directive
-*	
 */
 /*It is recommended that this file will minified before serving.*/
 
