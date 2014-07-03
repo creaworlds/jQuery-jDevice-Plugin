@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Jquery-jdevice-plugin by creaworlds</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Jquery-jdevice-plugin</h1>
+        <h2>A jQuery plugin that helps you to detect mobile features.</h2>
+        <a href="https://github.com/creaworlds/jQuery-jDevice-Plugin" class="button"><small>View project on</small>GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
+<a name="jquery-jdevice-plugin" class="anchor" href="#jquery-jdevice-plugin"><span class="octicon octicon-link"></span></a>jQuery-jDevice-Plugin</h1>
+
+<p>A jQuery plugin that helps you to detect mobile features.</p>
+
+<h2>
+<a name="features" class="anchor" href="#features"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul>
+<li>Helps you to Detect a mobile device trow jQuery</li>
+</ul><h2>
+<a name="dependencies" class="anchor" href="#dependencies"><span class="octicon octicon-link"></span></a>Dependencies</h2>
+
+<ul>
+<li>jQuery 1.9 or higher</li>
+</ul><h2>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<div class="highlight highlight-js"><pre><span class="kd">function</span> <span class="nx">ConfigureDOM</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Detects if current browser is insides of mobile device.</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isMobile</span><span class="p">())</span> <span class="p">{</span>
+        <span class="c1">//TODO</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="nx">ConfigureDOM</span><span class="p">);</span>
+</pre></div>
+
+<ul>
+<li>
+<strong>$.device</strong> is the jDevice plugin and contains all methods descibed below:</li>
+<li>
+<strong>$.device.isIPad()</strong> returns <strong>true</strong> if device is an <strong>iPad</strong>.</li>
+<li>
+<strong>$.device.isIPhone()</strong> returns <strong>true</strong> if device is an <strong>iPhone</strong>.</li>
+<li>
+<strong>$.device.isIPod()</strong> returns <strong>true</strong> if device is an <strong>iPod</strong>.</li>
+<li>
+<strong>$.device.isIOSDevice()</strong> returns <strong>true</strong> if device is an <strong>iOS Device</strong>.</li>
+<li>
+<strong>$.device.isAndroid()</strong> returns <strong>true</strong> if device is an <strong>iOS Device</strong>.</li>
+<li>
+<strong>$.device.isBlackBerry()</strong> returns <strong>true</strong> if device is a <strong>BlackBerry</strong>.</li>
+<li>
+<strong>$.device.isWebOS()</strong> returns <strong>true</strong> if device is a <strong>WebOS</strong> device.</li>
+</ul><h2>
+<a name="examples" class="anchor" href="#examples"><span class="octicon octicon-link"></span></a>Examples</h2>
+
+<div class="highlight highlight-js"><pre><span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isMobile</span><span class="p">())</span> <span class="p">{</span> <span class="nx">alert</span><span class="p">(</span><span class="s2">"is mobile device"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isIPad</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is an iPad"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isIPhone</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is an iPhone"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isIPod</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is an iPod"</span><span class="p">);</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isIOSDevice</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is an iOS device"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isAndroid</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is an Android"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isBlackBerry</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is a BlackBerry"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="nb">document</span><span class="p">).</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="k">if</span> <span class="p">(</span><span class="nx">$</span><span class="p">.</span><span class="nx">device</span><span class="p">.</span><span class="nx">isWebOS</span><span class="p">())</span> <span class="p">{</span>  <span class="nx">alert</span><span class="p">(</span><span class="s2">"is a WebOS device"</span><span class="p">);</span> <span class="p">}</span> <span class="p">});</span>
+</pre></div>
+
+<h2>
+<a name="contribution-and-bug-report" class="anchor" href="#contribution-and-bug-report"><span class="octicon octicon-link"></span></a>Contribution and Bug Report</h2>
+
+<p>Feel free if you want to contribute. </p>
+
+<p>Please use the <a href="https://github.com/creaworlds/jQuery-jDevice-Plugin/issues">GitHub issue tracker</a> for bug
+reports and feature requests.</p>
+
+<h2>
+<a name="contributors" class="anchor" href="#contributors"><span class="octicon octicon-link"></span></a>Contributors</h2>
+
+<ul>
+<li><a href="http://www.creaworlds.com.mx/">Anthony Acuña</a></li>
+</ul>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/creaworlds/jQuery-jDevice-Plugin/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/creaworlds/jQuery-jDevice-Plugin/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/creaworlds/jQuery-jDevice-Plugin"></a> is maintained by <a href="https://github.com/creaworlds">creaworlds</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
